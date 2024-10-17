@@ -27,7 +27,7 @@ tina.forward(125)
 tina.end_fill()
 tina.fillcolor('red')
 tina.left(90)
-tina.forward(25)
+tina.forward(50)
 tina.right(90)
 
 tina.penup()
@@ -38,4 +38,15 @@ tina.circle(75)
 tina.forward(50)
 tina.left(45)
 tina.end_fill()
+
+tina.penup()
+tina.left(45)
+tina.forward(75)
+tina.left(90)
+tina.forward(50)
+tina.pencolor('black')
+
+
+
+
 turtle.exitonclick()
