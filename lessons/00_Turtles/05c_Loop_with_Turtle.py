@@ -34,4 +34,7 @@ tina.left(90)
 tina.forward(200)
 tina.left(90)
 tina.forward(100)
+for i in range (4):
+    print('loop iteration', i)
+    
 turtle.exitonclick()
