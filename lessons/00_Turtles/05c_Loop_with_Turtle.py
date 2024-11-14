@@ -11,30 +11,4 @@ write a new program that uses a loop to draw a pentagon.
 ... # Your code here
 import turtle
 tina= turtle
-tina.speed (1)
-tina.pendown
-tina.begin_fill()
-tina.forward(100)
-tina.left(90)
-tina.forward(100)
-tina.back(100)
-tina.left(90)
-tina.forward(200)
-tina.left(90)
-tina.forward(100)
-tina.back(100)
-tina.left(90)
-tina.forward(100)
-tina.left(90)
-tina.forward(100)
-tina.left(90)
-tina.forward(100)
-tina.back(100)
-tina.left(90)
-tina.forward(200)
-tina.left(90)
-tina.forward(100)
-for i in range (4):
-    print('loop iteration', i)
-    
 turtle.exitonclick()
