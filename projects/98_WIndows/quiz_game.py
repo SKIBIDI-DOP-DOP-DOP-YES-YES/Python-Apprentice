@@ -9,14 +9,14 @@ window.withdraw()  # ;
 # 1. Create a variable to hold the user's score. Set it equal to zero.
 score = 0  # ;
 
-response = simpledialog.askstring(None, "Which is better, Python or Java?")  # ;
+response = simpledialog.askstring(None, "Which is better, baby gronk or Skibidi Toilet?")  # ;
 
-if response.lower() == "python":  # ;
+if response.upper() == "Skibidi Toilet":  # ;
     score += 1  # ;
     print("Correct! Your score is " + str(score))  # ;
 else:  # ;
     score -= 1  # ;
-    messagebox.showerror(message="WRONG! It's Python of course!")  # ;
+    messagebox.showerror(message="WRONG! It's Skibidi Toilet of course!")  # ;
 
 messagebox.showinfo(message="Your final score is " + str(score))  # ;
 # ASK A QUESTION AND CHECK THE ANSWER
@@ -37,18 +37,18 @@ messagebox.showinfo(message="Your final score is " + str(score))  # ;
 score = 0  # ;
 
 questions = [  # ;
-    "Which is better, Python or Java?",  # ;
-    "What does OOP stand for?",  # ;
-    "How many days in a non-leap year?",  # ;
+    "Which is better, Skibidi Toilet or Baby gronk?",  # ;
+    "What does GOAT stand for?",  # ;
+    "What is the best show/series?",  # ;
 ]  # ;
 
-answers = ["python", "object orientated programming", "366"]  # ;
+answers = ["Skibidi Toilet", "Greatest Of All Time", "Skibidi Toilet"]  # ;
 
 # Loop through each question in the questions list and ask the user for their response to each one using the simpledialog.askstring() method and an if statement to check if their response is correct or not and change the score accordingly using the score variable you created earlier.  # ;
 for i in range(len(questions)):  # ;
     response = simpledialog.askstring(None, questions[i])  # ;
 
-    if response.lower() == answers[i]:  # ;
+    if response.upper() == answers[i]:  # ;
         score += 1  # ;
         print("Correct! Your score is " + str(score))  # ;
     else:  # ;
